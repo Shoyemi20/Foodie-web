@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import DishesCard from "../layouts/DishesCard";
-import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img2.jpg";
-import img3 from "../assets/img3.jpg";
-import img4 from "../assets/img4.jpg";
-import img5 from "../assets/img5.jpg";
-import img6 from "../assets/img6.jpg";
+import img7 from "../assets/img7.jpg";
+import img8 from "../assets/img8.jpg";
+import img9 from "../assets/img9.jpg";
+import img10 from "../assets/img10.jpg";
+import img11 from "../assets/img11.jpg";
+import img12 from "../assets/img12.jpg";
 
 const Dishes = () => {
   return (
@@ -16,12 +16,12 @@ const Dishes = () => {
       </h1>
 
       <div className="flex flex-wrap gap-8 justify-center">
-        <DishesCard img={img1} title="Tasty Dish" price="$10.99" />
-        <DishesCard img={img2} title="Tasty Dish" price="$12.99" />
-        <DishesCard img={img3} title="Tasty Dish" price="$11.99" />
-        <DishesCard img={img4} title="Tasty Dish" price="$11.99" />
-        <DishesCard img={img5} title="Tasty Dish" price="$12.99" />
-        <DishesCard img={img6} title="Tasty Dish" price="$10.99" />
+        <DishesCard img={img7} title="Tasty Dish" price="#5000" />
+        <DishesCard img={img8} title="Tasty Dish" price="#5000" />
+        <DishesCard img={img9} title="Tasty Dish" price="#5000" />
+        <DishesCard img={img10} title="Tasty Dish" price="#5000" />
+        <DishesCard img={img11} title="Tasty Dish" price="#5000" />
+        <DishesCard img={img12} title="Tasty Dish" price="#5000" />
       </div>
     </div>
   );

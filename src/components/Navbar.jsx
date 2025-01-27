@@ -21,10 +21,16 @@ const Navbar = () => {
       <div>
         <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)]">
           <div className="flex flex-row items-center cursor-pointer">
-            <span>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="flex items-center gap-1"
+            >
               <BiRestaurant size={32} />
-            </span>
-            <h1 className="text-xl font-semibold">FoodieWeb</h1>
+              <h1 className="text-xl font-semibold">FoodieWeb</h1>
+            </Link>
           </div>
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
             <Link
@@ -48,7 +54,7 @@ const Navbar = () => {
                   Dishes
                 </Link>
 
-                <BiChevronDown className="cursor-pointer" size={25}  />
+                <BiChevronDown className="cursor-pointer" size={25} />
               </div>
               <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
                 <li>

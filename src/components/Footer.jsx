@@ -65,13 +65,13 @@ const Footer = () => {
               className=" hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
-              FoodieWeb@email.com
+              shoyemiesther20@email.com
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
-              +64 958 248 966
+              +234 903 554 296 3
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
@@ -85,8 +85,8 @@ const Footer = () => {
       <div>
         <p>
           <p className=" text-center py-4">
-            @copyright developed by
-            <span className=" text-brightColor"> champion programmers</span> |
+            Developed by
+            <span className=" text-brightColor"> Shoyemi Esther</span> |
             All rights reserved
           </p>
         </p>
