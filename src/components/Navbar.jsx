@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { BiChevronDown, BiRestaurant } from "react-icons/bi";
 import { Link } from "react-router-dom";
@@ -23,7 +22,8 @@ const Navbar = () => {
         <div>
           <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)]">
             <div className="flex flex-row items-center cursor-pointer">
-              <Link
+              {/* ScrollLink added to FoodieWeb */}
+              <ScrollLink
                 to="home"
                 spy={true}
                 smooth={true}
@@ -32,7 +32,7 @@ const Navbar = () => {
               >
                 <BiRestaurant size={32} />
                 <h1 className="text-xl font-semibold">FoodieWeb</h1>
-              </Link>
+              </ScrollLink>
             </div>
             <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
               {/* React Scroll for in-page navigation */}
